@@ -22,7 +22,7 @@
             "ioValue": 0.5
         },
         {
-            "name": "ply thick 3/4",
+            "name": "ply thick 3/8",
             "ioValue": 0.33
         }
     ],
@@ -307,9 +307,9 @@
         },
         {
             "atomType": "Input",
-            "name": "ply thick 3/4",
+            "name": "ply thick 3/8",
             "x": 0.0231,
-            "y": 0.6325301204819277,
+            "y": 0.6385542168674698,
             "uniqueID": "9e86af91-5ff7-44f7-bd46-d8e16ef129da",
             "ioValues": [],
             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
@@ -3041,8 +3041,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Back Fence",
-                    "x": 0.44738955823293175,
-                    "y": 0.27710843373493976,
+                    "x": 0.44096385542168676,
+                    "y": 0.25903614457831325,
                     "uniqueID": "de165410-a64c-4bf0-9eaa-48916af6eebc",
                     "ioValues": [
                         {
@@ -4118,8 +4118,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.6305220883534136,
-                            "y": 0.4487951807228916,
+                            "x": 0.6329317269076306,
+                            "y": 0.4337349397590362,
                             "uniqueID": "0d14569e-63e3-4bae-a43d-4eba7603d423",
                             "ioValues": [
                                 {
@@ -4136,7 +4136,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 1.32
+                                    "ioValue": 1.5
                                 }
                             ],
                             "description": "Moves a shape laterally in X, Y, Z."
@@ -4209,7 +4209,7 @@
                         }
                     ],
                     "fileTypeVersion": 1,
-                    "compiledBom": {}
+                    "compiledBom": []
                 }
             ],
             "allConnectors": [
@@ -4229,13 +4229,13 @@
                 }
             ],
             "fileTypeVersion": 1,
-            "compiledBom": {}
+            "compiledBom": []
         },
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.4481927710843374,
-            "y": 0.7319277108433735,
+            "x": 0.4843373493975904,
+            "y": 0.7439759036144579,
             "uniqueID": "eed08f34-b0b9-494d-87d5-31e829bf6596",
             "ioValues": [
                 {
@@ -4252,7 +4252,7 @@
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 0.33
+                    "ioValue": 0.5
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
@@ -4389,6 +4389,13 @@
             "ap2Primary": false,
             "ap1ID": "049fa278-a19a-4514-9484-e508811690b9",
             "ap2ID": "34f38619-417d-4030-bbf8-5eafc502a26f"
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "zDist",
+            "ap2Primary": false,
+            "ap1ID": "049fa278-a19a-4514-9484-e508811690b9",
+            "ap2ID": "eed08f34-b0b9-494d-87d5-31e829bf6596"
         },
         {
             "ap1Name": "number or geometry",
