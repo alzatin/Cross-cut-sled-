@@ -233,6 +233,42 @@
                     "uniqueID": "c7babe99-8bdb-42f2-9d85-8d796ba1e457",
                     "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.24819277108433732,
+                    "y": 0.391566265060241,
+                    "uniqueID": "09fdc506-18f7-436d-974b-beb2d45b26b7",
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 3.75
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 1.25
+                        }
+                    ],
+                    "description": "Creates a new rectangle."
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.26345381526104417,
+                    "y": 0.6686746987951807,
+                    "uniqueID": "fa583289-db4f-4855-9744-e071bcb03722",
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 10
+                        }
+                    ],
+                    "description": "Creates a new rectangle."
                 }
             ],
             "allConnectors": [],
