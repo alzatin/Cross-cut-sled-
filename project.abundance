@@ -1726,8 +1726,8 @@
         {
             "atomType": "Molecule",
             "name": "Front fence",
-            "x": 0.26907630522088355,
-            "y": 0.5903614457831325,
+            "x": 0.2779116465863454,
+            "y": 0.5993975903614458,
             "uniqueID": "4697a8f2-5e9d-4e0e-9a06-d5fe13388936",
             "ioValues": [
                 {
@@ -1816,8 +1816,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Fence Piece",
-                    "x": 0.3325301204819277,
-                    "y": 0.25301204819277107,
+                    "x": 0.3317269076305221,
+                    "y": 0.2560240963855422,
                     "uniqueID": "8679fc3e-3760-4598-bbd6-8986e6b43a67",
                     "ioValues": [
                         {
@@ -2821,7 +2821,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 1.32
+                            "ioValue": 1.5
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -2920,11 +2920,11 @@
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 8.25
+                    "ioValue": 8.505
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 0.33
+                    "ioValue": 0.5
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
@@ -2942,7 +2942,7 @@
                 },
                 {
                     "name": "y",
-                    "ioValue": 0.5
+                    "ioValue": 0.33
                 }
             ],
             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -2951,8 +2951,8 @@
         {
             "atomType": "Molecule",
             "name": "back fence",
-            "x": 0.327710843373494,
-            "y": 0.713855421686747,
+            "x": 0.3220883534136546,
+            "y": 0.7168674698795181,
             "uniqueID": "837b2e4b-c8c1-4f59-ace8-f7b4706cdcaf",
             "ioValues": [
                 {
@@ -2973,7 +2973,7 @@
                 },
                 {
                     "name": "ply thick 3/4 (1)",
-                    "ioValue": 10
+                    "ioValue": 0.33
                 }
             ],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -3063,7 +3063,7 @@
                         },
                         {
                             "name": "ply thick 3/4 (2)",
-                            "ioValue": 10
+                            "ioValue": 0.33
                         }
                     ],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -3108,7 +3108,7 @@
                                 },
                                 {
                                     "name": "ply thick 3/4 (2)",
-                                    "ioValue": 0.5
+                                    "ioValue": 0.33
                                 }
                             ],
                             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -3798,8 +3798,8 @@
                                 {
                                     "atomType": "Extrude",
                                     "name": "Extrude",
-                                    "x": 0.5020080321285141,
-                                    "y": 0.45180722891566266,
+                                    "x": 0.5068273092369477,
+                                    "y": 0.4457831325301205,
                                     "uniqueID": "fb02faf5-792e-4ca2-a0af-a7598986adb9",
                                     "ioValues": [
                                         {
@@ -3808,7 +3808,7 @@
                                         },
                                         {
                                             "name": "height",
-                                            "ioValue": 0.5
+                                            "ioValue": 0.33
                                         }
                                     ],
                                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -3856,7 +3856,7 @@
                                         },
                                         {
                                             "name": "zDist",
-                                            "ioValue": -0.5
+                                            "ioValue": -0.33
                                         }
                                     ],
                                     "description": "Moves a shape laterally in X, Y, Z."
@@ -3882,7 +3882,7 @@
                                         },
                                         {
                                             "name": "zDist",
-                                            "ioValue": 0.5
+                                            "ioValue": 0.33
                                         }
                                     ],
                                     "description": "Moves a shape laterally in X, Y, Z."
@@ -3896,7 +3896,7 @@
                                     "ioValues": [
                                         {
                                             "name": "x",
-                                            "ioValue": 0.5
+                                            "ioValue": 0.33
                                         }
                                     ],
                                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -3925,22 +3925,22 @@
                                     "ap1Name": "number or geometry",
                                     "ap2Name": "height",
                                     "ap2Primary": false,
-                                    "ap1ID": "06c6412a-eb3b-47db-89bc-80d6996d96bf",
+                                    "ap1ID": "b07aab49-0c40-41be-8c37-aba09605602f",
                                     "ap2ID": "fb02faf5-792e-4ca2-a0af-a7598986adb9"
-                                },
-                                {
-                                    "ap1Name": "number or geometry",
-                                    "ap2Name": "zDist",
-                                    "ap2Primary": false,
-                                    "ap1ID": "06c6412a-eb3b-47db-89bc-80d6996d96bf",
-                                    "ap2ID": "d5042dd0-40d3-4e31-baec-bb3a6fbae16d"
                                 },
                                 {
                                     "ap1Name": "number or geometry",
                                     "ap2Name": "x",
                                     "ap2Primary": false,
-                                    "ap1ID": "06c6412a-eb3b-47db-89bc-80d6996d96bf",
+                                    "ap1ID": "b07aab49-0c40-41be-8c37-aba09605602f",
                                     "ap2ID": "9a6dda12-c6d6-422d-901e-3e4b2bfd25d6"
+                                },
+                                {
+                                    "ap1Name": "number or geometry",
+                                    "ap2Name": "zDist",
+                                    "ap2Primary": false,
+                                    "ap1ID": "b07aab49-0c40-41be-8c37-aba09605602f",
+                                    "ap2ID": "d5042dd0-40d3-4e31-baec-bb3a6fbae16d"
                                 },
                                 {
                                     "ap1Name": "geometry",
@@ -4180,6 +4180,13 @@
                             "ap2ID": "f95a26ac-5cb0-4e78-ac26-ebf4ef4b69c5"
                         },
                         {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "ply thick 3/4 (2)",
+                            "ap2Primary": false,
+                            "ap1ID": "0e92e342-a865-41b8-b6a6-47d3ca1eb7dc",
+                            "ap2ID": "545f064e-25a7-4000-a4a0-5fa54877b348"
+                        },
+                        {
                             "ap1Name": "geometry",
                             "ap2Name": "number or geometry",
                             "ap2Primary": false,
@@ -4221,6 +4228,13 @@
                     "ap2ID": "de165410-a64c-4bf0-9eaa-48916af6eebc"
                 },
                 {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "ply thick 3/4 (2)",
+                    "ap2Primary": false,
+                    "ap1ID": "985b4ee4-d658-4dd1-a851-4d2ea49321c3",
+                    "ap2ID": "de165410-a64c-4bf0-9eaa-48916af6eebc"
+                },
+                {
                     "ap1Name": "Geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
@@ -4248,7 +4262,7 @@
                 },
                 {
                     "name": "yDist",
-                    "ioValue": -8.25
+                    "ioValue": -8.505
                 },
                 {
                     "name": "zDist",
@@ -4270,7 +4284,7 @@
                 },
                 {
                     "name": "y",
-                    "ioValue": 0.5
+                    "ioValue": 0.33
                 }
             ],
             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -4371,13 +4385,6 @@
         },
         {
             "ap1Name": "number or geometry",
-            "ap2Name": "y",
-            "ap2Primary": false,
-            "ap1ID": "049fa278-a19a-4514-9484-e508811690b9",
-            "ap2ID": "7390b245-934a-4881-a97d-8f9c8e6247cc"
-        },
-        {
-            "ap1Name": "number or geometry",
             "ap2Name": "ply thick 1/2 (1)",
             "ap2Primary": false,
             "ap1ID": "049fa278-a19a-4514-9484-e508811690b9",
@@ -4385,17 +4392,17 @@
         },
         {
             "ap1Name": "number or geometry",
-            "ap2Name": "y",
+            "ap2Name": "zDist",
             "ap2Primary": false,
             "ap1ID": "049fa278-a19a-4514-9484-e508811690b9",
-            "ap2ID": "34f38619-417d-4030-bbf8-5eafc502a26f"
+            "ap2ID": "eed08f34-b0b9-494d-87d5-31e829bf6596"
         },
         {
             "ap1Name": "number or geometry",
             "ap2Name": "zDist",
             "ap2Primary": false,
             "ap1ID": "049fa278-a19a-4514-9484-e508811690b9",
-            "ap2ID": "eed08f34-b0b9-494d-87d5-31e829bf6596"
+            "ap2ID": "1b402a62-03cf-46f2-a811-6b1f3bded198"
         },
         {
             "ap1Name": "number or geometry",
@@ -4413,10 +4420,24 @@
         },
         {
             "ap1Name": "number or geometry",
-            "ap2Name": "zDist",
+            "ap2Name": "ply thick 3/4 (1)",
             "ap2Primary": false,
             "ap1ID": "9e86af91-5ff7-44f7-bd46-d8e16ef129da",
-            "ap2ID": "1b402a62-03cf-46f2-a811-6b1f3bded198"
+            "ap2ID": "837b2e4b-c8c1-4f59-ace8-f7b4706cdcaf"
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "y",
+            "ap2Primary": false,
+            "ap1ID": "9e86af91-5ff7-44f7-bd46-d8e16ef129da",
+            "ap2ID": "34f38619-417d-4030-bbf8-5eafc502a26f"
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "y",
+            "ap2Primary": false,
+            "ap1ID": "9e86af91-5ff7-44f7-bd46-d8e16ef129da",
+            "ap2ID": "7390b245-934a-4881-a97d-8f9c8e6247cc"
         },
         {
             "ap1Name": "Geometry",
