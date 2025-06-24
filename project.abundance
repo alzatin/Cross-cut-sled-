@@ -360,11 +360,11 @@
             "ioValues": [
                 {
                     "name": "sled width (1)",
-                    "ioValue": 10
+                    "ioValue": 30
                 },
                 {
                     "name": "sled depth (1)",
-                    "ioValue": 10
+                    "ioValue": 18
                 },
                 {
                     "name": "fence height (1)",
@@ -372,11 +372,11 @@
                 },
                 {
                     "name": "ply thick 1/2 (1)",
-                    "ioValue": 10
+                    "ioValue": 0.325
                 },
                 {
                     "name": "ply thick 3/4 (1)",
-                    "ioValue": 10
+                    "ioValue": 0.5
                 }
             ],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -449,7 +449,7 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 10
+                            "ioValue": 18
                         }
                     ],
                     "description": "Creates a new rectangle."
@@ -457,8 +457,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.3654618473895582,
-                    "y": 0.35240963855421686,
+                    "x": 0.40963855421686746,
+                    "y": 0.35843373493975905,
                     "uniqueID": "c5689543-35d9-411a-b60d-7669a76c573a",
                     "ioValues": [
                         {
@@ -467,7 +467,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 10
+                            "ioValue": 0.325
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -524,10 +524,24 @@
         },
         {
             "ap1Name": "number or geometry",
+            "ap2Name": "sled width (1)",
+            "ap2Primary": false,
+            "ap1ID": "f72e5f1d-6cd7-42fc-9429-a437b5e814d6",
+            "ap2ID": "f169e68c-f886-4cf6-8228-01843a61f5e8"
+        },
+        {
+            "ap1Name": "number or geometry",
             "ap2Name": "sled depth (1)",
             "ap2Primary": false,
             "ap1ID": "dbbe4e92-616b-4dce-b504-0f9b5d4b3c80",
             "ap2ID": "3ed5e0a1-db09-47a6-b2f2-9d8c7c575d59"
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "sled depth (1)",
+            "ap2Primary": false,
+            "ap1ID": "dbbe4e92-616b-4dce-b504-0f9b5d4b3c80",
+            "ap2ID": "f169e68c-f886-4cf6-8228-01843a61f5e8"
         },
         {
             "ap1Name": "number or geometry",
@@ -538,10 +552,31 @@
         },
         {
             "ap1Name": "number or geometry",
+            "ap2Name": "fence height (1)",
+            "ap2Primary": false,
+            "ap1ID": "a607164d-b13e-45b8-8759-c10b272c94b3",
+            "ap2ID": "f169e68c-f886-4cf6-8228-01843a61f5e8"
+        },
+        {
+            "ap1Name": "number or geometry",
             "ap2Name": "ply thick 1/2",
             "ap2Primary": false,
             "ap1ID": "049fa278-a19a-4514-9484-e508811690b9",
             "ap2ID": "3ed5e0a1-db09-47a6-b2f2-9d8c7c575d59"
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "ply thick 3/4 (1)",
+            "ap2Primary": false,
+            "ap1ID": "049fa278-a19a-4514-9484-e508811690b9",
+            "ap2ID": "f169e68c-f886-4cf6-8228-01843a61f5e8"
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "ply thick 1/2 (1)",
+            "ap2Primary": false,
+            "ap1ID": "9e86af91-5ff7-44f7-bd46-d8e16ef129da",
+            "ap2ID": "f169e68c-f886-4cf6-8228-01843a61f5e8"
         }
     ],
     "unitsKey": "Inches",
