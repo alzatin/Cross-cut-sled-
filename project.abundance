@@ -4,7 +4,24 @@
     "x": 0,
     "y": 0,
     "uniqueID": "4d933878-4339-4699-a041-898f47993286",
-    "ioValues": [],
+    "ioValues": [
+        {
+            "name": "sled width",
+            "ioValue": 30
+        },
+        {
+            "name": "sled depth",
+            "ioValue": 18
+        },
+        {
+            "name": "fence height",
+            "ioValue": 10
+        },
+        {
+            "name": "name0 (1)",
+            "ioValue": 10
+        }
+    ],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
     "topLevel": true,
     "allAtoms": [
@@ -14,21 +31,29 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": "f9866da9-1a36-48a1-8728-e9b1eb349523",
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": ""
-                }
-            ],
+            "ioValues": [],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
             "atomType": "Molecule",
             "name": "Base",
-            "x": 0.1931740614334471,
-            "y": 0.1897590361445783,
+            "x": 0.2355848434925865,
+            "y": 0.20180722891566263,
             "uniqueID": "3ed5e0a1-db09-47a6-b2f2-9d8c7c575d59",
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "sled width (1)",
+                    "ioValue": 30
+                },
+                {
+                    "name": "sled depth (1)",
+                    "ioValue": 18
+                },
+                {
+                    "name": "fence height (1)",
+                    "ioValue": 10
+                }
+            ],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
             "topLevel": false,
             "allAtoms": [
@@ -40,9 +65,90 @@
                     "uniqueID": "68545335-065e-4ad1-aa64-ffea7fbdffa8",
                     "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
+                },
+                {
+                    "atomType": "Input",
+                    "name": "sled width (1)",
+                    "x": 0.0231,
+                    "y": 0.43192771084337345,
+                    "uniqueID": "b3c79658-f118-43d7-8328-effb77325d20",
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                    "type": "number"
+                },
+                {
+                    "atomType": "Input",
+                    "name": "sled depth (1)",
+                    "x": 0.0231,
+                    "y": 0.6548192771084337,
+                    "uniqueID": "1130cfdb-1964-40ec-8ac9-a8de4dae41bd",
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                    "type": "number"
+                },
+                {
+                    "atomType": "Input",
+                    "name": "fence height (1)",
+                    "x": 0.0231,
+                    "y": 0.3174698795180723,
+                    "uniqueID": "cb9a629b-6d95-48ff-8ae4-7dc30454572a",
+                    "ioValues": [],
+                    "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+                    "type": "number"
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.22734761120263589,
+                    "y": 0.3644578313253012,
+                    "uniqueID": "9e721684-0081-4548-afd7-42fb3132dfeb",
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 30
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 18
+                        }
+                    ],
+                    "description": "Creates a new rectangle."
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.414332784184514,
+                    "y": 0.608433734939759,
+                    "uniqueID": "ed9d0428-afaa-46cf-a2d9-b170a5261581",
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 10
+                        }
+                    ],
+                    "description": "Extrudes a 2D shape. Input can be negitive. "
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "x length",
+                    "ap2Primary": false,
+                    "ap1ID": "b3c79658-f118-43d7-8328-effb77325d20",
+                    "ap2ID": "9e721684-0081-4548-afd7-42fb3132dfeb"
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "y length",
+                    "ap2Primary": false,
+                    "ap1ID": "1130cfdb-1964-40ec-8ac9-a8de4dae41bd",
+                    "ap2ID": "9e721684-0081-4548-afd7-42fb3132dfeb"
+                }
+            ],
             "fileTypeVersion": 1,
             "compiledBom": {}
         },
@@ -97,8 +203,8 @@
         {
             "atomType": "Molecule",
             "name": "Back Fence",
-            "x": 0.17215815485996705,
-            "y": 0.3765060240963855,
+            "x": 0.17792421746293247,
+            "y": 0.3674698795180723,
             "uniqueID": "68076572-fae0-41b9-9ea8-6c72565df03e",
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -145,8 +251,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.630716723549488,
-            "y": 0.4939759036144578,
+            "x": 0.7215815485996705,
+            "y": 0.45180722891566266,
             "uniqueID": "e779ca05-bf03-428f-85b3-e9eec026d418",
             "ioValues": [
                 {
@@ -154,6 +260,46 @@
                 }
             ],
             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+        },
+        {
+            "atomType": "Input",
+            "name": "sled width",
+            "x": 0.0231,
+            "y": 0.48192771084337344,
+            "uniqueID": "f72e5f1d-6cd7-42fc-9429-a437b5e814d6",
+            "ioValues": [],
+            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+            "type": "number"
+        },
+        {
+            "atomType": "Input",
+            "name": "sled depth",
+            "x": 0.0231,
+            "y": 0.7048192771084337,
+            "uniqueID": "dbbe4e92-616b-4dce-b504-0f9b5d4b3c80",
+            "ioValues": [],
+            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+            "type": "number"
+        },
+        {
+            "atomType": "Input",
+            "name": "fence height",
+            "x": 0.0231,
+            "y": 0.3674698795180723,
+            "uniqueID": "a607164d-b13e-45b8-8759-c10b272c94b3",
+            "ioValues": [],
+            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+            "type": "number"
+        },
+        {
+            "atomType": "Input",
+            "name": "name0 (1)",
+            "x": 0.0231,
+            "y": 0.8734939759036144,
+            "uniqueID": "049fa278-a19a-4514-9484-e508811690b9",
+            "ioValues": [],
+            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+            "type": "number"
         }
     ],
     "allConnectors": [
@@ -170,6 +316,27 @@
             "ap2Primary": false,
             "ap1ID": "e779ca05-bf03-428f-85b3-e9eec026d418",
             "ap2ID": "f9866da9-1a36-48a1-8728-e9b1eb349523"
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "sled width (1)",
+            "ap2Primary": false,
+            "ap1ID": "f72e5f1d-6cd7-42fc-9429-a437b5e814d6",
+            "ap2ID": "3ed5e0a1-db09-47a6-b2f2-9d8c7c575d59"
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "sled depth (1)",
+            "ap2Primary": false,
+            "ap1ID": "dbbe4e92-616b-4dce-b504-0f9b5d4b3c80",
+            "ap2ID": "3ed5e0a1-db09-47a6-b2f2-9d8c7c575d59"
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "fence height (1)",
+            "ap2Primary": false,
+            "ap1ID": "a607164d-b13e-45b8-8759-c10b272c94b3",
+            "ap2ID": "3ed5e0a1-db09-47a6-b2f2-9d8c7c575d59"
         }
     ],
     "unitsKey": "Inches",
