@@ -4699,8 +4699,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.7943775100401607,
-            "y": 0.6144578313253012,
+            "x": 0.7991967871485944,
+            "y": 0.5813253012048193,
             "uniqueID": "8e370f67-f3f0-41de-8202-17e36bcaaede",
             "ioValues": [
                 {
@@ -4713,7 +4713,7 @@
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 7.51
+                    "ioValue": 7.255000000000001
                 },
                 {
                     "name": "zDist",
@@ -4724,9 +4724,9 @@
         },
         {
             "atomType": "Equation",
-            "name": "x/2 - y*3 - z",
-            "x": 0.6417670682730924,
-            "y": 0.8524096385542169,
+            "name": "x/2 - y*3/2 - z*3/2 - z",
+            "x": 0.5831325301204819,
+            "y": 0.8584337349397589,
             "uniqueID": "e12daa72-5f1a-41ff-9856-8cb7f92a46b5",
             "ioValues": [
                 {
@@ -4743,7 +4743,7 @@
                 }
             ],
             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
-            "currentEquation": "x/2 - y*3 - z"
+            "currentEquation": "x/2 - y*3/2 - z*3/2 - z"
         }
     ],
     "allConnectors": [
