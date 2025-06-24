@@ -218,8 +218,8 @@
         {
             "atomType": "Molecule",
             "name": "Exit block",
-            "x": 0.5654618473895582,
-            "y": 0.8765060240963856,
+            "x": 0.7196787148594377,
+            "y": 0.825301204819277,
             "uniqueID": "1c5ac0d6-1650-49cc-8c5b-3eb41349154e",
             "ioValues": [
                 {
@@ -644,8 +644,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.7751004016064258,
-            "y": 0.3433734939759036,
+            "x": 0.878714859437751,
+            "y": 0.3463855421686747,
             "uniqueID": "e779ca05-bf03-428f-85b3-e9eec026d418",
             "ioValues": [
                 {
@@ -4699,8 +4699,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.6923694779116466,
-            "y": 0.6867469879518072,
+            "x": 0.7943775100401607,
+            "y": 0.6144578313253012,
             "uniqueID": "8e370f67-f3f0-41de-8202-17e36bcaaede",
             "ioValues": [
                 {
@@ -4713,7 +4713,7 @@
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 0
+                    "ioValue": 7.51
                 },
                 {
                     "name": "zDist",
@@ -4721,6 +4721,29 @@
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
+            "atomType": "Equation",
+            "name": "x/2 - y*3 - z",
+            "x": 0.6417670682730924,
+            "y": 0.8524096385542169,
+            "uniqueID": "e12daa72-5f1a-41ff-9856-8cb7f92a46b5",
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 18
+                },
+                {
+                    "name": "y",
+                    "ioValue": 0.33
+                },
+                {
+                    "name": "z",
+                    "ioValue": 0.5
+                }
+            ],
+            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+            "currentEquation": "x/2 - y*3 - z"
         }
     ],
     "allConnectors": [
@@ -4786,6 +4809,13 @@
             "ap2Primary": false,
             "ap1ID": "dbbe4e92-616b-4dce-b504-0f9b5d4b3c80",
             "ap2ID": "34f38619-417d-4030-bbf8-5eafc502a26f"
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "x",
+            "ap2Primary": false,
+            "ap1ID": "dbbe4e92-616b-4dce-b504-0f9b5d4b3c80",
+            "ap2ID": "e12daa72-5f1a-41ff-9856-8cb7f92a46b5"
         },
         {
             "ap1Name": "number or geometry",
@@ -4859,6 +4889,13 @@
         },
         {
             "ap1Name": "number or geometry",
+            "ap2Name": "z",
+            "ap2Primary": false,
+            "ap1ID": "049fa278-a19a-4514-9484-e508811690b9",
+            "ap2ID": "e12daa72-5f1a-41ff-9856-8cb7f92a46b5"
+        },
+        {
+            "ap1Name": "number or geometry",
             "ap2Name": "ply thick 1/2 (1)",
             "ap2Primary": false,
             "ap1ID": "9e86af91-5ff7-44f7-bd46-d8e16ef129da",
@@ -4891,6 +4928,13 @@
             "ap2Primary": false,
             "ap1ID": "9e86af91-5ff7-44f7-bd46-d8e16ef129da",
             "ap2ID": "7390b245-934a-4881-a97d-8f9c8e6247cc"
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "y",
+            "ap2Primary": false,
+            "ap1ID": "9e86af91-5ff7-44f7-bd46-d8e16ef129da",
+            "ap2ID": "e12daa72-5f1a-41ff-9856-8cb7f92a46b5"
         },
         {
             "ap1Name": "Geometry",
@@ -4947,6 +4991,13 @@
             "ap2Primary": false,
             "ap1ID": "8e370f67-f3f0-41de-8202-17e36bcaaede",
             "ap2ID": "e779ca05-bf03-428f-85b3-e9eec026d418"
+        },
+        {
+            "ap1Name": "result",
+            "ap2Name": "yDist",
+            "ap2Primary": false,
+            "ap1ID": "e12daa72-5f1a-41ff-9856-8cb7f92a46b5",
+            "ap2ID": "8e370f67-f3f0-41de-8202-17e36bcaaede"
         }
     ],
     "unitsKey": "Inches",
