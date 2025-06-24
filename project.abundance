@@ -23,7 +23,7 @@
         },
         {
             "name": "ply thick 3/4",
-            "ioValue": 0.325
+            "ioValue": 0.33
         }
     ],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -242,8 +242,8 @@
         {
             "atomType": "Molecule",
             "name": "Front Fence",
-            "x": 0.19839357429718876,
-            "y": 0.6475903614457831,
+            "x": 0.25060240963855424,
+            "y": 0.608433734939759,
             "uniqueID": "d8b3dc26-3095-4de2-bc31-9d076c3de0ca",
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -290,8 +290,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.757001647446458,
-            "y": 0.2319277108433735,
+            "x": 0.7630522088353413,
+            "y": 0.25301204819277107,
             "uniqueID": "e779ca05-bf03-428f-85b3-e9eec026d418",
             "ioValues": [
                 {
@@ -319,7 +319,7 @@
             "atomType": "Input",
             "name": "sled depth",
             "x": 0.0231,
-            "y": 0.7048192771084337,
+            "y": 0.753012048192771,
             "uniqueID": "dbbe4e92-616b-4dce-b504-0f9b5d4b3c80",
             "ioValues": [],
             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
@@ -349,7 +349,7 @@
             "atomType": "Input",
             "name": "ply thick 3/4",
             "x": 0.0231,
-            "y": 0.575301204819277,
+            "y": 0.6325301204819277,
             "uniqueID": "9e86af91-5ff7-44f7-bd46-d8e16ef129da",
             "ioValues": [],
             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
@@ -376,7 +376,7 @@
                 },
                 {
                     "name": "ply thick 1/2 (1)",
-                    "ioValue": 0.325
+                    "ioValue": 0.33
                 },
                 {
                     "name": "ply thick 3/4 (1)",
@@ -476,7 +476,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 0.325
+                            "ioValue": 0.33
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -847,7 +847,7 @@
                         },
                         {
                             "name": "Geometry",
-                            "ioValue": "NaN8932f-a211-4a10-b16b-03bf87b3b40a"
+                            "ioValue": "fb18932f-a211-4a10-b16b-03bf87b3b40a"
                         }
                     ],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -876,7 +876,7 @@
                             "ioValues": [
                                 {
                                     "name": "Shape",
-                                    "ioValue": "NaN8932f-a211-4a10-b16b-03bf87b3b40a"
+                                    "ioValue": "fb18932f-a211-4a10-b16b-03bf87b3b40a"
                                 },
                                 {
                                     "name": "Number",
@@ -1048,7 +1048,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": -0.325
+                            "ioValue": -0.33
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -1062,7 +1062,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 0.325
+                            "ioValue": 0.33
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -1089,7 +1089,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": -0.325
+                            "ioValue": -0.33
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -1108,6 +1108,10 @@
                         {
                             "name": "Shape 2",
                             "ioValue": "b0c0ef36-c254-4d62-9491-5099f3fefe7b"
+                        },
+                        {
+                            "name": "Shape 3",
+                            "ioValue": "fe31919f-4029-4a93-8432-3ea30e27aa03"
                         }
                     ],
                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -1443,7 +1447,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0.325
+                            "ioValue": 0.33
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -1510,6 +1514,26 @@
                     ],
                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
                     "unionType": "Fusion"
+                },
+                {
+                    "atomType": "Add-BOM-Tag",
+                    "name": "Add BOM Tag",
+                    "x": 0.3437751004016064,
+                    "y": 0.8192771084337349,
+                    "uniqueID": "fe31919f-4029-4a93-8432-3ea30e27aa03",
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "22ddb5d9-b2f7-47da-86ca-aabde3248035"
+                        }
+                    ],
+                    "description": "Adds a Bill Of Materials tag which appears in molecules containing this atom and in the GitHub project bill of materials.",
+                    "BOMitem": {
+                        "BOMitemName": "names",
+                        "numberNeeded": 1,
+                        "costUSD": 0,
+                        "source": "www.example.com"
+                    }
                 }
             ],
             "allConnectors": [
@@ -1682,6 +1706,13 @@
                     "ap2ID": "7073c667-a672-4c4b-a991-a04fa7f3a541"
                 },
                 {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": "22ddb5d9-b2f7-47da-86ca-aabde3248035",
+                    "ap2ID": "fe31919f-4029-4a93-8432-3ea30e27aa03"
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
@@ -1722,6 +1753,13 @@
                     "ap2Primary": false,
                     "ap1ID": "15f01395-b327-4bb8-abcf-c53430a4cd92",
                     "ap2ID": "2b29b467-9898-4364-a19c-358343b9b2ee"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 3",
+                    "ap2Primary": false,
+                    "ap1ID": "fe31919f-4029-4a93-8432-3ea30e27aa03",
+                    "ap2ID": "d394d29c-d3cb-46f9-8146-ff32999231cf"
                 }
             ],
             "fileTypeVersion": 1,
@@ -1729,6 +1767,12 @@
                 {
                     "BOMitemName": "Screw 1",
                     "numberNeeded": 14,
+                    "costUSD": 0,
+                    "source": "www.example.com"
+                },
+                {
+                    "BOMitemName": "names",
+                    "numberNeeded": 1,
                     "costUSD": 0,
                     "source": "www.example.com"
                 }
