@@ -218,8 +218,8 @@
         {
             "atomType": "Molecule",
             "name": "Exit block",
-            "x": 0.5694779116465863,
-            "y": 0.8524096385542169,
+            "x": 0.5654618473895582,
+            "y": 0.8765060240963856,
             "uniqueID": "1c5ac0d6-1650-49cc-8c5b-3eb41349154e",
             "ioValues": [
                 {
@@ -239,7 +239,7 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": "c30e3f90-7b93-451d-9af7-f268231c975a"
+                            "ioValue": "aca33510-eeb2-4fd6-b3fe-664388f1c804"
                         }
                     ],
                     "description": "Connect geometry here to make it available in the next level up. "
@@ -441,6 +441,73 @@
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
                     "currentEquation": "-x"
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 0.8369477911646587,
+                    "y": 0.3765060240963855,
+                    "uniqueID": "0c465de6-ae3d-4e19-95ca-7750c01a5d09",
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "c30e3f90-7b93-451d-9af7-f268231c975a"
+                        },
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 90
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 0
+                        }
+                    ],
+                    "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.885140562248996,
+                    "y": 0.753012048192771,
+                    "uniqueID": "aca33510-eeb2-4fd6-b3fe-664388f1c804",
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "0c465de6-ae3d-4e19-95ca-7750c01a5d09"
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0.25
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0.75
+                        }
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "x/2",
+                    "x": 0.4385542168674699,
+                    "y": 0.8012048192771084,
+                    "uniqueID": "c3e53dd4-8ce6-45e3-b60e-2931864e8cd4",
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 0.5
+                        }
+                    ],
+                    "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+                    "currentEquation": "x/2"
                 }
             ],
             "allConnectors": [
@@ -515,11 +582,18 @@
                     "ap2ID": "ae36fbd3-c09d-4353-b177-5cbcc38ae578"
                 },
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "x",
                     "ap2Primary": false,
+                    "ap1ID": "9ef5c58c-6bc2-49b1-920d-a81909af416e",
+                    "ap2ID": "c3e53dd4-8ce6-45e3-b60e-2931864e8cd4"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": "c30e3f90-7b93-451d-9af7-f268231c975a",
-                    "ap2ID": "c7babe99-8bdb-42f2-9d85-8d796ba1e457"
+                    "ap2ID": "0c465de6-ae3d-4e19-95ca-7750c01a5d09"
                 },
                 {
                     "ap1Name": "geometry",
@@ -541,16 +615,37 @@
                     "ap2Primary": false,
                     "ap1ID": "d4a8afa7-fa19-46c8-8ecd-1513843a2931",
                     "ap2ID": "05e2f8f8-5803-4fe7-846d-7db7858b5387"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": "0c465de6-ae3d-4e19-95ca-7750c01a5d09",
+                    "ap2ID": "aca33510-eeb2-4fd6-b3fe-664388f1c804"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": "aca33510-eeb2-4fd6-b3fe-664388f1c804",
+                    "ap2ID": "c7babe99-8bdb-42f2-9d85-8d796ba1e457"
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "yDist",
+                    "ap2Primary": false,
+                    "ap1ID": "c3e53dd4-8ce6-45e3-b60e-2931864e8cd4",
+                    "ap2ID": "aca33510-eeb2-4fd6-b3fe-664388f1c804"
                 }
             ],
             "fileTypeVersion": 1,
-            "compiledBom": {}
+            "compiledBom": []
         },
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.7542168674698795,
-            "y": 0.4006024096385542,
+            "x": 0.7751004016064258,
+            "y": 0.3433734939759036,
             "uniqueID": "e779ca05-bf03-428f-85b3-e9eec026d418",
             "ioValues": [
                 {
@@ -568,6 +663,10 @@
                 {
                     "name": "Shape 4",
                     "ioValue": "eed08f34-b0b9-494d-87d5-31e829bf6596"
+                },
+                {
+                    "name": "Shape 5",
+                    "ioValue": "8e370f67-f3f0-41de-8202-17e36bcaaede"
                 }
             ],
             "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -4596,6 +4695,32 @@
             ],
             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
             "currentEquation": "-x /2 + y*3/2"
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.6923694779116466,
+            "y": 0.6867469879518072,
+            "uniqueID": "8e370f67-f3f0-41de-8202-17e36bcaaede",
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "1c5ac0d6-1650-49cc-8c5b-3eb41349154e"
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0.5
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
         }
     ],
     "allConnectors": [
@@ -4605,6 +4730,13 @@
             "ap2Primary": false,
             "ap1ID": "3ed5e0a1-db09-47a6-b2f2-9d8c7c575d59",
             "ap2ID": "e779ca05-bf03-428f-85b3-e9eec026d418"
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": "1c5ac0d6-1650-49cc-8c5b-3eb41349154e",
+            "ap2ID": "8e370f67-f3f0-41de-8202-17e36bcaaede"
         },
         {
             "ap1Name": "geometry",
@@ -4720,6 +4852,13 @@
         },
         {
             "ap1Name": "number or geometry",
+            "ap2Name": "zDist",
+            "ap2Primary": false,
+            "ap1ID": "049fa278-a19a-4514-9484-e508811690b9",
+            "ap2ID": "8e370f67-f3f0-41de-8202-17e36bcaaede"
+        },
+        {
+            "ap1Name": "number or geometry",
             "ap2Name": "ply thick 1/2 (1)",
             "ap2Primary": false,
             "ap1ID": "9e86af91-5ff7-44f7-bd46-d8e16ef129da",
@@ -4801,6 +4940,13 @@
             "ap2Primary": false,
             "ap1ID": "34f38619-417d-4030-bbf8-5eafc502a26f",
             "ap2ID": "eed08f34-b0b9-494d-87d5-31e829bf6596"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape 5",
+            "ap2Primary": false,
+            "ap1ID": "8e370f67-f3f0-41de-8202-17e36bcaaede",
+            "ap2ID": "e779ca05-bf03-428f-85b3-e9eec026d418"
         }
     ],
     "unitsKey": "Inches",
