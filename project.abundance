@@ -91,7 +91,7 @@
                 {
                     "atomType": "Input",
                     "name": "sled width (1)",
-                    "x": 0.0231,
+                    "x": 0.019799999999999998,
                     "y": 0.43192771084337345,
                     "uniqueID": "b3c79658-f118-43d7-8328-effb77325d20",
                     "ioValues": [],
@@ -101,7 +101,7 @@
                 {
                     "atomType": "Input",
                     "name": "sled depth (1)",
-                    "x": 0.0231,
+                    "x": 0.019799999999999998,
                     "y": 0.5873493975903614,
                     "uniqueID": "1130cfdb-1964-40ec-8ac9-a8de4dae41bd",
                     "ioValues": [],
@@ -111,7 +111,7 @@
                 {
                     "atomType": "Input",
                     "name": "fence height (1)",
-                    "x": 0.0231,
+                    "x": 0.019799999999999998,
                     "y": 0.3174698795180723,
                     "uniqueID": "cb9a629b-6d95-48ff-8ae4-7dc30454572a",
                     "ioValues": [],
@@ -157,7 +157,7 @@
                 {
                     "atomType": "Input",
                     "name": "ply thick 1/2",
-                    "x": 0.0231,
+                    "x": 0.019799999999999998,
                     "y": 0.6867469879518072,
                     "uniqueID": "6952896a-2e58-4e0b-bc67-2ab6de14a2da",
                     "ioValues": [],
@@ -167,7 +167,7 @@
                 {
                     "atomType": "Input",
                     "name": "ply thick 2",
-                    "x": 0.0231,
+                    "x": 0.019799999999999998,
                     "y": 0.8102409638554217,
                     "uniqueID": "df00548c-965a-4f0a-bac3-b4a5b0d26216",
                     "ioValues": [],
@@ -346,7 +346,7 @@
                 {
                     "atomType": "Input",
                     "name": "thickness",
-                    "x": 0.0231,
+                    "x": 0.019799999999999998,
                     "y": 0.5,
                     "uniqueID": "9ef5c58c-6bc2-49b1-920d-a81909af416e",
                     "ioValues": [],
@@ -674,7 +674,7 @@
         {
             "atomType": "Input",
             "name": "sled width",
-            "x": 0.0231,
+            "x": 0.019799999999999998,
             "y": 0.46987951807228917,
             "uniqueID": "f72e5f1d-6cd7-42fc-9429-a437b5e814d6",
             "ioValues": [],
@@ -684,7 +684,7 @@
         {
             "atomType": "Input",
             "name": "sled depth",
-            "x": 0.0231,
+            "x": 0.019799999999999998,
             "y": 0.753012048192771,
             "uniqueID": "dbbe4e92-616b-4dce-b504-0f9b5d4b3c80",
             "ioValues": [],
@@ -694,7 +694,7 @@
         {
             "atomType": "Input",
             "name": "fence height",
-            "x": 0.0231,
+            "x": 0.019799999999999998,
             "y": 0.3674698795180723,
             "uniqueID": "a607164d-b13e-45b8-8759-c10b272c94b3",
             "ioValues": [],
@@ -704,7 +704,7 @@
         {
             "atomType": "Input",
             "name": "ply thick 1/2",
-            "x": 0.0231,
+            "x": 0.019799999999999998,
             "y": 0.8644578313253012,
             "uniqueID": "049fa278-a19a-4514-9484-e508811690b9",
             "ioValues": [],
@@ -714,7 +714,7 @@
         {
             "atomType": "Input",
             "name": "ply thick 3/8",
-            "x": 0.0231,
+            "x": 0.019799999999999998,
             "y": 0.6385542168674698,
             "uniqueID": "9e86af91-5ff7-44f7-bd46-d8e16ef129da",
             "ioValues": [],
@@ -769,7 +769,7 @@
                 {
                     "atomType": "Input",
                     "name": "sled width (1)",
-                    "x": 0.0231,
+                    "x": 0.019799999999999998,
                     "y": 0.48192771084337344,
                     "uniqueID": "7b77ba28-e6e2-4bf3-88cd-c437823f76e6",
                     "ioValues": [],
@@ -778,7 +778,7 @@
                 {
                     "atomType": "Input",
                     "name": "sled depth (1)",
-                    "x": 0.0231,
+                    "x": 0.019799999999999998,
                     "y": 0.7048192771084337,
                     "uniqueID": "113234c4-b448-4d52-9ae3-3d275aa25d93",
                     "ioValues": [],
@@ -787,7 +787,7 @@
                 {
                     "atomType": "Input",
                     "name": "fence height (1)",
-                    "x": 0.0231,
+                    "x": 0.019799999999999998,
                     "y": 0.3674698795180723,
                     "uniqueID": "77cb31ce-1aec-47a7-b44e-5f1b2aded438",
                     "ioValues": [],
@@ -796,7 +796,7 @@
                 {
                     "atomType": "Input",
                     "name": "ply thick 1/2 (1)",
-                    "x": 0.0231,
+                    "x": 0.019799999999999998,
                     "y": 0.8644578313253012,
                     "uniqueID": "6056d32c-15e7-4fe8-a513-0eb0a5ede5d6",
                     "ioValues": [],
@@ -805,7 +805,7 @@
                 {
                     "atomType": "Input",
                     "name": "ply thick 3/4 (1)",
-                    "x": 0.0231,
+                    "x": 0.019799999999999998,
                     "y": 0.575301204819277,
                     "uniqueID": "6143c200-fa5d-4bb0-9fd1-d3451050d6f9",
                     "ioValues": [],
@@ -891,7 +891,7 @@
                         {
                             "atomType": "Input",
                             "name": "diameter",
-                            "x": 0.0231,
+                            "x": 0.019799999999999998,
                             "y": 0.2680722891566265,
                             "uniqueID": "b1925fc2-b391-4aae-9390-b1a98e93d2ce",
                             "ioValues": [],
@@ -901,7 +901,7 @@
                         {
                             "atomType": "Input",
                             "name": "length",
-                            "x": 0.0231,
+                            "x": 0.019799999999999998,
                             "y": 0.39759036144578314,
                             "uniqueID": "73ad35fc-3643-48ce-b5e2-b8506c8f83c3",
                             "ioValues": [],
@@ -911,7 +911,7 @@
                         {
                             "atomType": "Input",
                             "name": "x",
-                            "x": 0.0231,
+                            "x": 0.019799999999999998,
                             "y": 0.5903614457831325,
                             "uniqueID": "dfb24a86-c8dd-4b4a-af73-fcb8d2d3edb1",
                             "ioValues": [],
@@ -921,7 +921,7 @@
                         {
                             "atomType": "Input",
                             "name": "y",
-                            "x": 0.0231,
+                            "x": 0.019799999999999998,
                             "y": 0.7409638554216867,
                             "uniqueID": "04ee72a7-3bb7-48b6-ad43-e10cce795260",
                             "ioValues": [],
@@ -1278,7 +1278,7 @@
                         {
                             "atomType": "Input",
                             "name": "Number",
-                            "x": 0.0231,
+                            "x": 0.019799999999999998,
                             "y": 0.32869080779944293,
                             "uniqueID": "b27f8b8d-f649-4828-87b7-ec6df8095edf",
                             "ioValues": [],
@@ -1288,7 +1288,7 @@
                         {
                             "atomType": "Input",
                             "name": "Dist",
-                            "x": 0.0231,
+                            "x": 0.019799999999999998,
                             "y": 0.6434540389972144,
                             "uniqueID": "095680de-ca6e-47b6-87eb-778e98b48de1",
                             "ioValues": [],
@@ -1298,7 +1298,7 @@
                         {
                             "atomType": "Input",
                             "name": "Geometry",
-                            "x": 0.0231,
+                            "x": 0.019799999999999998,
                             "y": 0.9108635097493036,
                             "uniqueID": "f0b1c5b1-33d4-43a0-afe9-548caebfca58",
                             "ioValues": [],
@@ -1552,7 +1552,7 @@
                         {
                             "atomType": "Input",
                             "name": "length",
-                            "x": 0.0231,
+                            "x": 0.019799999999999998,
                             "y": 0.3704819277108434,
                             "uniqueID": "743aee58-de5a-4701-a6e7-0a7f0577c5a2",
                             "ioValues": [],
@@ -1562,7 +1562,7 @@
                         {
                             "atomType": "Input",
                             "name": "width",
-                            "x": 0.0231,
+                            "x": 0.019799999999999998,
                             "y": 0.6204819277108434,
                             "uniqueID": "3bbaf791-88f7-4c68-9498-8ba5bed5e44c",
                             "ioValues": [],
@@ -1572,7 +1572,7 @@
                         {
                             "atomType": "Input",
                             "name": "height",
-                            "x": 0.0231,
+                            "x": 0.019799999999999998,
                             "y": 0.8463855421686747,
                             "uniqueID": "075a366a-648d-4b9e-b2cd-adc6c72940d2",
                             "ioValues": [],
@@ -1582,7 +1582,7 @@
                         {
                             "atomType": "Input",
                             "name": "z",
-                            "x": 0.0231,
+                            "x": 0.019799999999999998,
                             "y": 0.7409638554216867,
                             "uniqueID": "9482fada-c5e7-4eb2-af1b-0c67ca015588",
                             "ioValues": [],
@@ -2177,7 +2177,7 @@
                 {
                     "atomType": "Input",
                     "name": "sled width (1)",
-                    "x": 0.0231,
+                    "x": 0.019799999999999998,
                     "y": 0.48192771084337344,
                     "uniqueID": "a981ab65-ebb3-4bf7-8d42-60147cc817ac",
                     "ioValues": [],
@@ -2186,7 +2186,7 @@
                 {
                     "atomType": "Input",
                     "name": "sled depth (1)",
-                    "x": 0.0231,
+                    "x": 0.019799999999999998,
                     "y": 0.753012048192771,
                     "uniqueID": "8c366d60-c9ec-45cf-9986-dbb155506b36",
                     "ioValues": [],
@@ -2195,7 +2195,7 @@
                 {
                     "atomType": "Input",
                     "name": "fence height (1)",
-                    "x": 0.0231,
+                    "x": 0.019799999999999998,
                     "y": 0.3674698795180723,
                     "uniqueID": "e931fa92-297e-41d2-bc75-4bdbf82db206",
                     "ioValues": [],
@@ -2204,7 +2204,7 @@
                 {
                     "atomType": "Input",
                     "name": "ply thick 1/2 (1)",
-                    "x": 0.0231,
+                    "x": 0.019799999999999998,
                     "y": 0.8644578313253012,
                     "uniqueID": "0a052fe3-082a-4cb7-9cdc-dacd82a7ef12",
                     "ioValues": [],
@@ -2213,7 +2213,7 @@
                 {
                     "atomType": "Input",
                     "name": "ply thick 3/4 (1)",
-                    "x": 0.0231,
+                    "x": 0.019799999999999998,
                     "y": 0.6325301204819277,
                     "uniqueID": "a70d70ee-fd10-4348-bd2a-dbd00013e7be",
                     "ioValues": [],
@@ -2267,7 +2267,7 @@
                         {
                             "atomType": "Input",
                             "name": "sled width (2)",
-                            "x": 0.0231,
+                            "x": 0.019799999999999998,
                             "y": 0.48192771084337344,
                             "uniqueID": "de402575-f480-4d96-85d4-a2f4709731a1",
                             "ioValues": [],
@@ -2276,7 +2276,7 @@
                         {
                             "atomType": "Input",
                             "name": "sled depth (2)",
-                            "x": 0.0231,
+                            "x": 0.019799999999999998,
                             "y": 0.753012048192771,
                             "uniqueID": "63035cc2-448b-410e-be0b-ba480c240556",
                             "ioValues": [],
@@ -2285,7 +2285,7 @@
                         {
                             "atomType": "Input",
                             "name": "fence height (2)",
-                            "x": 0.0231,
+                            "x": 0.019799999999999998,
                             "y": 0.3674698795180723,
                             "uniqueID": "3506c55d-01bf-4ae0-b899-1d6b5e74c5c6",
                             "ioValues": [],
@@ -2294,7 +2294,7 @@
                         {
                             "atomType": "Input",
                             "name": "ply thick 1/2 (2)",
-                            "x": 0.0231,
+                            "x": 0.019799999999999998,
                             "y": 0.8644578313253012,
                             "uniqueID": "0b071b1d-cbcf-48fb-b85c-310b3e909546",
                             "ioValues": [],
@@ -2303,7 +2303,7 @@
                         {
                             "atomType": "Input",
                             "name": "ply thick 3/4 (2)",
-                            "x": 0.0231,
+                            "x": 0.019799999999999998,
                             "y": 0.6325301204819277,
                             "uniqueID": "0dd2deaf-e48f-44e7-80d3-6cf88ad340b0",
                             "ioValues": [],
@@ -2367,7 +2367,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "Width",
-                                    "x": 0.0231,
+                                    "x": 0.019799999999999998,
                                     "y": 0.2900232018561485,
                                     "uniqueID": "41d0407a-cd38-4d11-8a4a-694b72ae6507",
                                     "ioValues": [],
@@ -2377,7 +2377,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "Height",
-                                    "x": 0.0231,
+                                    "x": 0.019799999999999998,
                                     "y": 0.44083526682134566,
                                     "uniqueID": "27705773-ac29-423c-b47a-e887fd42edd9",
                                     "ioValues": [],
@@ -2387,7 +2387,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "Radius",
-                                    "x": 0.0231,
+                                    "x": 0.019799999999999998,
                                     "y": 0.6334106728538283,
                                     "uniqueID": "6f34c418-1b38-4a53-925e-f74b78d7d071",
                                     "ioValues": [],
@@ -3402,7 +3402,7 @@
                 {
                     "atomType": "Input",
                     "name": "sled width (1)",
-                    "x": 0.0231,
+                    "x": 0.019799999999999998,
                     "y": 0.46987951807228917,
                     "uniqueID": "e0a5b14e-6a81-46bc-b1f0-657bc50fff52",
                     "ioValues": [],
@@ -3411,7 +3411,7 @@
                 {
                     "atomType": "Input",
                     "name": "sled depth (1)",
-                    "x": 0.0231,
+                    "x": 0.019799999999999998,
                     "y": 0.753012048192771,
                     "uniqueID": "e05c285c-31d0-442b-a5be-497dc2f389c0",
                     "ioValues": [],
@@ -3420,7 +3420,7 @@
                 {
                     "atomType": "Input",
                     "name": "fence height (1)",
-                    "x": 0.0231,
+                    "x": 0.019799999999999998,
                     "y": 0.3674698795180723,
                     "uniqueID": "c244ad76-d225-4b93-9359-0fba726c096b",
                     "ioValues": [],
@@ -3429,7 +3429,7 @@
                 {
                     "atomType": "Input",
                     "name": "ply thick 1/2 (1)",
-                    "x": 0.0231,
+                    "x": 0.019799999999999998,
                     "y": 0.8644578313253012,
                     "uniqueID": "8a2c2cf9-48e1-44ea-88e3-938dbc5c6e2b",
                     "ioValues": [],
@@ -3438,7 +3438,7 @@
                 {
                     "atomType": "Input",
                     "name": "ply thick 3/4 (1)",
-                    "x": 0.0231,
+                    "x": 0.019799999999999998,
                     "y": 0.6325301204819277,
                     "uniqueID": "985b4ee4-d658-4dd1-a851-4d2ea49321c3",
                     "ioValues": [],
@@ -3537,7 +3537,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "sled width (2)",
-                                    "x": 0.0231,
+                                    "x": 0.019799999999999998,
                                     "y": 0.48192771084337344,
                                     "uniqueID": "9199c598-c126-4431-bf1c-180f5112fafe",
                                     "ioValues": [],
@@ -3546,7 +3546,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "sled depth (2)",
-                                    "x": 0.0231,
+                                    "x": 0.019799999999999998,
                                     "y": 0.753012048192771,
                                     "uniqueID": "4442ffa6-788a-4ef8-be97-22fe916c3345",
                                     "ioValues": [],
@@ -3555,7 +3555,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "fence height (2)",
-                                    "x": 0.0231,
+                                    "x": 0.019799999999999998,
                                     "y": 0.3674698795180723,
                                     "uniqueID": "bacb4fe9-789c-4d30-bfeb-e05186e1935c",
                                     "ioValues": [],
@@ -3564,7 +3564,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "ply thick 1/2 (2)",
-                                    "x": 0.0231,
+                                    "x": 0.019799999999999998,
                                     "y": 0.8644578313253012,
                                     "uniqueID": "06c6412a-eb3b-47db-89bc-80d6996d96bf",
                                     "ioValues": [],
@@ -3573,7 +3573,7 @@
                                 {
                                     "atomType": "Input",
                                     "name": "ply thick 3/4 (2)",
-                                    "x": 0.0231,
+                                    "x": 0.019799999999999998,
                                     "y": 0.6325301204819277,
                                     "uniqueID": "b07aab49-0c40-41be-8c37-aba09605602f",
                                     "ioValues": [],
@@ -3637,7 +3637,7 @@
                                         {
                                             "atomType": "Input",
                                             "name": "Width",
-                                            "x": 0.0231,
+                                            "x": 0.019799999999999998,
                                             "y": 0.2900232018561485,
                                             "uniqueID": "41d0407a-cd38-4d11-8a4a-694b72ae6507",
                                             "ioValues": [],
@@ -3647,7 +3647,7 @@
                                         {
                                             "atomType": "Input",
                                             "name": "Height",
-                                            "x": 0.0231,
+                                            "x": 0.019799999999999998,
                                             "y": 0.44083526682134566,
                                             "uniqueID": "27705773-ac29-423c-b47a-e887fd42edd9",
                                             "ioValues": [],
@@ -3657,7 +3657,7 @@
                                         {
                                             "atomType": "Input",
                                             "name": "Radius",
-                                            "x": 0.0231,
+                                            "x": 0.019799999999999998,
                                             "y": 0.6334106728538283,
                                             "uniqueID": "6f34c418-1b38-4a53-925e-f74b78d7d071",
                                             "ioValues": [],
@@ -4439,7 +4439,7 @@
                         {
                             "atomType": "Input",
                             "name": "sled width (2)",
-                            "x": 0.0231,
+                            "x": 0.019799999999999998,
                             "y": 0.46987951807228917,
                             "uniqueID": "0aaaeba5-7c03-4a26-8cee-5d707d66f876",
                             "ioValues": [],
@@ -4448,7 +4448,7 @@
                         {
                             "atomType": "Input",
                             "name": "sled depth (2)",
-                            "x": 0.0231,
+                            "x": 0.019799999999999998,
                             "y": 0.753012048192771,
                             "uniqueID": "d6c417cc-5658-4374-92de-b4f9a59d6d23",
                             "ioValues": [],
@@ -4457,7 +4457,7 @@
                         {
                             "atomType": "Input",
                             "name": "fence height (2)",
-                            "x": 0.0231,
+                            "x": 0.019799999999999998,
                             "y": 0.3674698795180723,
                             "uniqueID": "99a283a9-f1d0-498a-994d-cacd89bc49e0",
                             "ioValues": [],
@@ -4466,7 +4466,7 @@
                         {
                             "atomType": "Input",
                             "name": "ply thick 1/2 (2)",
-                            "x": 0.0231,
+                            "x": 0.019799999999999998,
                             "y": 0.8644578313253012,
                             "uniqueID": "0148433f-c8bf-4614-9a8d-926029f295c2",
                             "ioValues": [],
@@ -4475,7 +4475,7 @@
                         {
                             "atomType": "Input",
                             "name": "ply thick 3/4 (2)",
-                            "x": 0.0231,
+                            "x": 0.019799999999999998,
                             "y": 0.6325301204819277,
                             "uniqueID": "0e92e342-a865-41b8-b6a6-47d3ca1eb7dc",
                             "ioValues": [],
@@ -4744,318 +4744,6 @@
             ],
             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
             "currentEquation": "x/2 - y*3/2 - z*3/2 - z"
-        },
-        {
-            "atomType": "GitHubMolecule",
-            "name": "-6-Wood-Screw",
-            "x": 0.491566265060241,
-            "y": 0.2740963855421687,
-            "uniqueID": "02ab4958-1a2d-4615-821a-b29d4fd0def0",
-            "ioValues": [],
-            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.98,
-                    "y": 0.5,
-                    "uniqueID": "5c9e4320-ad2a-4d92-a65f-62b53250e00c",
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "5f47cf8c-d92f-4b7b-99f2-02687f1f2a52"
-                        }
-                    ],
-                    "description": "Connect geometry here to make it available in the next level up. "
-                },
-                {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 0.0787037037037037,
-                    "y": 0.6908077994428969,
-                    "uniqueID": "a09c1d2d-333b-4554-aa4e-3e00b6822c73",
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 3.3
-                        }
-                    ],
-                    "description": "Creates a new circle."
-                },
-                {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 0.10714285714285714,
-                    "y": 0.32869080779944293,
-                    "uniqueID": "3b8ad0d4-e5e3-4c46-b7a8-c87141acaec0",
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 8.5
-                        }
-                    ],
-                    "description": "Creates a new circle."
-                },
-                {
-                    "atomType": "Move",
-                    "name": "Move",
-                    "x": 0.22552910052910055,
-                    "y": 0.6629526462395543,
-                    "uniqueID": "6b09e499-5fc8-4aa6-aae7-e34bd7f0d704",
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "a09c1d2d-333b-4554-aa4e-3e00b6822c73"
-                        },
-                        {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": -4
-                        }
-                    ],
-                    "description": "Moves a shape laterally in X, Y, Z."
-                },
-                {
-                    "atomType": "Loft",
-                    "name": "Loft",
-                    "x": 0.33201058201058203,
-                    "y": 0.37325905292479106,
-                    "uniqueID": "415fff84-f406-4b1f-bb3d-40464bb1317b",
-                    "ioValues": [
-                        {
-                            "name": "Shape 1",
-                            "ioValue": "6b09e499-5fc8-4aa6-aae7-e34bd7f0d704"
-                        },
-                        {
-                            "name": "Shape 2",
-                            "ioValue": "3b8ad0d4-e5e3-4c46-b7a8-c87141acaec0"
-                        },
-                        {
-                            "name": "Shape 3",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "Shape 1",
-                            "ioValue": "6b09e499-5fc8-4aa6-aae7-e34bd7f0d704"
-                        },
-                        {
-                            "name": "Shape 2",
-                            "ioValue": "3b8ad0d4-e5e3-4c46-b7a8-c87141acaec0"
-                        },
-                        {
-                            "name": "Shape 3",
-                            "ioValue": ""
-                        }
-                    ],
-                    "description": "Joins two or more shapes into a single solid by filling in the space between them. Also called 'hull'",
-                    "closedSelection": 0
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 0.3796296296296296,
-                    "y": 0.6657381615598886,
-                    "uniqueID": "80b2e6cb-b300-48e1-81f4-3030b2a0634b",
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "6b09e499-5fc8-4aa6-aae7-e34bd7f0d704"
-                        },
-                        {
-                            "name": "height",
-                            "ioValue": -35
-                        }
-                    ],
-                    "description": "Extrudes a 2D shape. Input can be negitive. "
-                },
-                {
-                    "atomType": "Assembly",
-                    "name": "Fusion",
-                    "x": 0.4722222222222222,
-                    "y": 0.33147632311977715,
-                    "uniqueID": "c368743a-8ac9-4edc-b9e9-17f29ec47339",
-                    "ioValues": [
-                        {
-                            "name": "Shape 1",
-                            "ioValue": "80b2e6cb-b300-48e1-81f4-3030b2a0634b"
-                        },
-                        {
-                            "name": "Shape 2",
-                            "ioValue": "415fff84-f406-4b1f-bb3d-40464bb1317b"
-                        }
-                    ],
-                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
-                    "unionType": "Assembly",
-                    "unionIndex": 1
-                },
-                {
-                    "atomType": "Add-BOM-Tag",
-                    "name": "Add BOM Tag",
-                    "x": 0.5892857142857143,
-                    "y": 0.47075208913649025,
-                    "uniqueID": "e990044c-21f1-41f0-adf5-2d71d58b93be",
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "c368743a-8ac9-4edc-b9e9-17f29ec47339"
-                        }
-                    ],
-                    "description": "Adds a Bill Of Materials tag which appears in molecules containing this atom and in the GitHub project bill of materials.",
-                    "BOMitem": {
-                        "BOMitemName": "#6 Wood Screw",
-                        "numberNeeded": 1,
-                        "costUSD": 0.1,
-                        "source": "www.example.com"
-                    }
-                },
-                {
-                    "atomType": "Color",
-                    "name": "Color",
-                    "x": 0.7156084656084657,
-                    "y": 0.49860724233983283,
-                    "uniqueID": "5f47cf8c-d92f-4b7b-99f2-02687f1f2a52",
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "e990044c-21f1-41f0-adf5-2d71d58b93be"
-                        }
-                    ],
-                    "description": "Changes the color of the shape.",
-                    "selectedColorIndex": 18
-                },
-                {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 0.6058981233243967,
-                    "y": 0.8016759776536313,
-                    "uniqueID": "ad148613-22c0-4539-b9d0-34b794ad998f",
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 10
-                        }
-                    ],
-                    "description": "Creates a new circle."
-                },
-                {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 0.7998212689901698,
-                    "y": 0.7430167597765363,
-                    "uniqueID": "c7d5aa2b-e7cf-43dd-85ba-efd50b578663",
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 10
-                        }
-                    ],
-                    "description": "Creates a new circle."
-                }
-            ],
-            "allConnectors": [
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": "a09c1d2d-333b-4554-aa4e-3e00b6822c73",
-                    "ap2ID": "6b09e499-5fc8-4aa6-aae7-e34bd7f0d704"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "Shape 2",
-                    "ap2Primary": false,
-                    "ap1ID": "3b8ad0d4-e5e3-4c46-b7a8-c87141acaec0",
-                    "ap2ID": "415fff84-f406-4b1f-bb3d-40464bb1317b"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "Shape 1",
-                    "ap2Primary": false,
-                    "ap1ID": "6b09e499-5fc8-4aa6-aae7-e34bd7f0d704",
-                    "ap2ID": "415fff84-f406-4b1f-bb3d-40464bb1317b"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": "6b09e499-5fc8-4aa6-aae7-e34bd7f0d704",
-                    "ap2ID": "80b2e6cb-b300-48e1-81f4-3030b2a0634b"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "Shape 2",
-                    "ap2Primary": false,
-                    "ap1ID": "415fff84-f406-4b1f-bb3d-40464bb1317b",
-                    "ap2ID": "c368743a-8ac9-4edc-b9e9-17f29ec47339"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "Shape 1",
-                    "ap2Primary": false,
-                    "ap1ID": "80b2e6cb-b300-48e1-81f4-3030b2a0634b",
-                    "ap2ID": "c368743a-8ac9-4edc-b9e9-17f29ec47339"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": "c368743a-8ac9-4edc-b9e9-17f29ec47339",
-                    "ap2ID": "e990044c-21f1-41f0-adf5-2d71d58b93be"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": "e990044c-21f1-41f0-adf5-2d71d58b93be",
-                    "ap2ID": "5f47cf8c-d92f-4b7b-99f2-02687f1f2a52"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": "5f47cf8c-d92f-4b7b-99f2-02687f1f2a52",
-                    "ap2ID": "5c9e4320-ad2a-4d92-a65f-62b53250e00c"
-                }
-            ],
-            "parentRepo": {
-                "lastFoundGit": "2025-03-02T16:20:37.798Z",
-                "privateRepo": false,
-                "repoName": "-6-Wood-Screw",
-                "dateCreated": "2025-01-03T19:58:30Z",
-                "readMe": "https://raw.githubusercontent.com/BarbourSmith/-6-Wood-Screw/master/README.md?sanitize=true",
-                "yyyy": 2025,
-                "topMoleculeID": 1735934311384,
-                "githubMoleculesUsed": [],
-                "html_url": "https://github.com/BarbourSmith/-6-Wood-Screw",
-                "topics": [],
-                "parentRepo": null,
-                "forks": 0,
-                "dateModified": "739399",
-                "ranking": 0,
-                "searchField": "-6-wood-screw barboursmith a standard #6 wood screw ",
-                "owner": "BarbourSmith",
-                "description": "A standard #6 wood screw",
-                "contentURL": "https://raw.githubusercontent.com/BarbourSmith/-6-Wood-Screw/master/project.abundance?sanitize=true",
-                "svgURL": "https://raw.githubusercontent.com/BarbourSmith/-6-Wood-Screw/master/project.svg?sanitize=true"
-            },
-            "unitsKey": "MM",
-            "fileTypeVersion": 1,
-            "compiledBom": [
-                {
-                    "BOMitemName": "#6 Wood Screw",
-                    "numberNeeded": 1,
-                    "costUSD": 0.1,
-                    "source": "www.example.com"
-                }
-            ]
         }
     ],
     "allConnectors": [
